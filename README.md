@@ -1,7 +1,7 @@
 # Clone-Practice-DEV.F
 
 ### Kata Intro a la Web
-En esta practica se hizo una landing page basandose en Instagram.
+En esta práctica se hizo una landing page basándose en Instagram.
 
 ### Entregables:
 

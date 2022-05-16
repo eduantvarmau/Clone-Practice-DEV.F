@@ -5,8 +5,8 @@ En esta práctica se hizo una landing page basándose en Instagram.
 
 ### Entregables:
 
-- [Figma](./practicaHarry/Harry.png)
+- [Figma](./)
 
-- [Pagina](./practicaHarry/DiagramaHarry.png)
+- [Pagina](./)
 
 ---

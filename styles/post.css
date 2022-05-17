@@ -1,0 +1,79 @@
+.containerPost{
+    margin-top: 100px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns:  35% 35%;
+    grid-template-rows: repeat(7, 60px);
+    place-content: center;
+    grid-template-areas: 
+    "itemImg itemFollow"
+    "itemImg itemDescription"
+    "itemImg itemDescription"
+    "itemImg itemIcons"
+    "itemImg itemLikes"
+    "itemImg itemTime"
+    "itemImg itemComent";
+}
+
+.itemImg{
+    justify-self: end;
+    grid-area: itemImg;
+}
+.itemFollow{
+    grid-area: itemFollow;
+}
+.itemDescription{
+    grid-area: itemDescription;
+}
+.itemIcons{
+    grid-area: itemIcons;
+}
+.itemLikes{
+    grid-area: itemLikes;
+}
+.itemTime{
+    grid-area: itemTime;
+}
+
+.itemComent{
+    grid-area: itemComent;
+}
+
+.imgPost{
+    height: 500px;
+}
+.itemFollow p{
+    font-weight: bold;
+}
+
+.itemIcons i{
+    color: var(--colorDark);
+    cursor: pointer;
+    margin-right: 10px;
+}
+.itemIcons i:hover{
+    color: var(--colorPurpleDark);
+}
+.itemLikes p{
+    font-weight: bold;
+}
+.itemTime p{
+    font-size: small;
+}
+.itemComent i{
+    margin-right: 5px;
+    font-size: 20px;
+    color: var(--colorDark);
+    cursor: pointer;
+}
+.itemComent i:hover{
+    color: var(--colorPurpleDark);
+}
+
+.inputPost{
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    background-color: var(--colorWhite);
+    border:none;
+}

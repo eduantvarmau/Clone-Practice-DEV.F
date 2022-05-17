@@ -1,0 +1,37 @@
+@import url(./profile.css);
+@import url(./post.css);
+@import url(./inicio.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-family: 'Poppins', sans-serif;
+    --colorWhite: #ffffff;
+    --colorBlack: #000000;
+    --colorPurpleDark: #676fb2;
+    --colorPurpleLight: #8288cb;
+    --colorBlueDark: #2ed0fc;
+    --colorBlueLight: #7ce3ff;
+    --colorDark: #313d40;
+    --colorMain: #EFEDFF;
+}
+
+html{
+    background-color: var(--colorMain);
+    scroll-behavior: smooth;
+
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+    background: var(--colorWhite);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: var(--colorPurpleLight);
+    border-radius: 25px;
+}

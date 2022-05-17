@@ -1,0 +1,113 @@
+.containerLogin{
+    margin-top: 45px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns:  repeat(2,40%);
+    grid-template-rows: repeat(11, 40px) ;
+    place-content: center;
+    grid-template-areas: 
+    "item1 item2"
+    "item1 item2"
+    "item1 item3"
+    "item1 item4"
+    "item1 item5"
+    "item1 item6"
+    "item1 item7"
+    "item1 item8"
+    "item1 item9"
+    "item1 item10"
+    "item1 item11"
+
+}
+
+.item1{
+    grid-area: item1;
+}
+.item2{
+    
+    justify-self: center;
+    grid-area: item2;
+}
+.item3{
+    justify-self: center;
+    grid-area: item3;
+}
+.item4{
+    justify-self: center;
+    grid-area: item4;
+}
+.item5{
+    font-size: small;
+    justify-self: center;
+    grid-area: item5;
+}
+.item6{
+    grid-area: item6;
+}
+.item7{
+    font-size: small;
+    justify-self: center;
+    grid-area: item7;
+}
+.item8{   
+    font-size: small;
+    justify-self: center;
+    grid-area: item8;
+}
+.item9{
+    font-size: small;
+    justify-self: center;
+    grid-area: item9;
+}
+.item10{
+    font-size: small;
+    justify-self: center;
+    grid-area: item10;
+}
+.item11{
+    justify-self: center;
+    grid-area: item11;
+}
+
+.cellphone{
+    width: 90%;
+}
+.banner{
+    width: 15rem;    
+}
+
+.mobileVersion{
+    width: 8rem;
+}
+
+.btnLogin{
+    background-color: var(--colorPurpleLight);
+    padding: 5px;
+    width: 210px;
+    height: 25px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: var(--colorWhite);
+}
+
+.btnLogin:hover{
+    background-color: var(--colorPurpleDark);
+}
+
+.inputLogin{
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    background-color: var(--colorWhite);
+    border:none;
+}
+
+
+.item7 p {
+    color: var(--colorPurpleDark);
+    font-weight: bold;
+}
+.item8, .item9, .item10 p{
+    font-weight: bold;
+}

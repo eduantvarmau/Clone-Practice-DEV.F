@@ -7,8 +7,8 @@ En esta práctica se hizo una landing page basándose en Instagram.
 
 ### Entregables:
 
-- [Figma](./)
+- [Figma](./https://www.figma.com/file/8C9rs8tGNKb4Ip6mnFdGFK/Untitled?node-id=3%3A33)
 
-- [Pagina](./)
+- [Pagina](./https://eduantvarmau.github.io/PHOTOYOU-DEV.F/)
 
 ---

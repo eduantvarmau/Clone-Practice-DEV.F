@@ -101,6 +101,7 @@
 
 .info{
     margin-top: 70px;
+    margin-bottom: 70px;
     display: grid;
     gap: 5px;
     grid-template-columns:  170px 150px 150px 150px;
@@ -275,33 +276,73 @@
 
 /*--------------- */
 .img{
-    margin-top: 45px;
+    /* margin-top: 45px; */
     display: grid;
     gap: 15px;
-    grid-template-columns:  200px  200px 200px;
-    grid-template-rows: 300px 300px 300px ;
-    place-content: center;
+    /* gap: 15px; */
+    /* grid-template-columns:  200px  200px 200px; */
+
+    /* grid-template-columns:  repeat(auto-fill, 200px); */
+     grid-template-columns:  repeat(3, 200px); 
+
+    justify-content: center;
+    margin: 0 auto;
+    grid-template-rows: repeat(3, auto-fill); ; 
+    /* place-content: center;*/
     grid-template-areas: 
-    "img1 img2 img3"
+   "img1 img2 img3"
     "img4 img5 img6"
-    "img7 img8 img9"
+    "img7 img8 img9"  
+}
+
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+.img7{
+    grid-area: img7;
+}
+.img8{
+    grid-area: img8;
+}
+.img9{
+    grid-area: img9;
 }
 
 
-
-.postSmall{
+.grid-item{
+    width: 230px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    cursor: zoom-in; 
+}
+.grid-item:hover{
+    filter: opacity(0.9);
+}
+.imgEffect{
     filter: grayscale(100%);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    width: 200px;
-    height: 250px;
-    padding: 10px;
-    justify-self: center;
 }
-.postSmall:hover{
+
+.imgEffect:hover{
     filter: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -309,33 +350,9 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     transition: 10ms;
-    padding:0px;
-
+    transform: scale(1.05);
 }
 
-.postLarge{
-    filter: grayscale(100%);
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    width: 200px;
-    height: 300px;
-    padding: 10px;
-    
-}
-.postLarge:hover{
-    filter: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    padding: 10px;
-    transition: all 0.3s;
-    transition: 10ms;
-    padding:0px;
-}
 
 /*------------------- */
 .footer{

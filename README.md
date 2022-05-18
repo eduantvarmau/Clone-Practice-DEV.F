@@ -3,10 +3,10 @@
 
 
 ### Kata Intro a la Web
-En esta práctica se hizo una landing page basándose en Instagram.
+En esta práctica se hizo una landing page basándose en Instagram y Pinterest.
 
 ### Tecnologías 
-Para la creación de nuestro proyecto utilizamos:
+Para la creación del proyecto utilizamos:
 
 - <img src="https://img.shields.io/badge/HTML5-ff895e?style=for-the-badge&logo=html5&logoColor=black">
 - <img src="https://img.shields.io/badge/CSS-78a1ff?&style=for-the-badge&logo=css3&logoColor=black">

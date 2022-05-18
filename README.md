@@ -5,10 +5,20 @@
 ### Kata Intro a la Web
 En esta práctica se hizo una landing page basándose en Instagram.
 
+### Tecnologías 
+Para la creación de nuestro proyecto utilizamos:
+
+- <img src="https://img.shields.io/badge/HTML5-ff895e?style=for-the-badge&logo=html5&logoColor=black">
+- <img src="https://img.shields.io/badge/CSS-78a1ff?&style=for-the-badge&logo=css3&logoColor=black">
+- <img src="https://img.shields.io/badge/JavaScript-ffec79?style=for-the-badge&logo=javascript&logoColor=black">
+- <img src="https://img.shields.io/badge/GitHub-caffb0?style=for-the-badge&logo=github&logoColor=black">
+
 ### Entregables:
 
-- [Figma](./https://www.figma.com/file/8C9rs8tGNKb4Ip6mnFdGFK/Untitled?node-id=3%3A33)
+- <a href="https://www.figma.com/file/8C9rs8tGNKb4Ip6mnFdGFK/Untitled?node-id=3%3A33">Figma</a>
 
-- [Pagina](./https://eduantvarmau.github.io/PHOTOYOU-DEV.F/)
+- [Pagina](https://eduantvarmau.github.io/PHOTOYOU-DEV.F/)
+
+Hecho con 💜 por Lalo Vargas
 
 ---

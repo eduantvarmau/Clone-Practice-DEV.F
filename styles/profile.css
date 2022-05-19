@@ -528,3 +528,17 @@
 .dark .btnP:hover{
     background-color: var(--colorPurpleLight);
 }
+
+.dark .photo{
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+
+.dark .imgEffect{
+    filter:blur(3px);
+    -webkit-filter:blur(3px);
+}
+
+.dark .imgEffect:hover{
+    filter:blur(0);
+}

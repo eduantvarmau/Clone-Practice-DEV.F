@@ -21,4 +21,8 @@ Para la creación del proyecto se utilizo:
 
 Hecho con 💜 por Lalo Vargas
 
+![Alt text](/src/gif.gif)
+
+
+
 ---

@@ -132,6 +132,11 @@
     grid-area: photo;
 }
 
+.photo:hover{
+    transform: scale(1.1); 
+
+}
+
 .txt{
     grid-area: txt;
 }

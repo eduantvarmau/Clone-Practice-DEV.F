@@ -188,9 +188,19 @@
     grid-area: circle4;
 }
 .effectCircle:hover{
-    transform: scale(1.05);
+    /* transform: scale(1.5); */
     cursor: pointer;
+    animation: rotation 5s infinite linear;
 }
+/* Rotation*/
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 .txt1{
     justify-self: center;
     font-weight: bold;
@@ -210,6 +220,10 @@
     justify-self: center;
     font-weight: bold;
     grid-area: txt4;
+}
+
+.effectReels{
+    cursor: pointer;
 }
 
 .sec1{
@@ -432,4 +446,85 @@
     max-width: 100% ;
     overflow-x: hidden ;
 }
+}
+
+/*-------------- */
+
+#modo{
+    width: 30px;
+    font-size: 25px;
+    margin: auto;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.dark{
+    background: rgba(0, 0, 0, 0.863);
+}
+
+.dark h1{
+    color: white;
+}
+
+
+.dark p{
+    color: rgb(211, 211, 211);
+}
+.dark .navbar{
+    background-color: var(--colorPurpleDark);
+}
+.dark .btnP{
+    color: aliceblue;
+}
+
+.dark #modo{
+    color: var(--colorWhite);
+}
+.dark #modo:hover{
+    color: var(--colorPurpleDark);
+}
+
+.dark .icons i{
+    color: var(--colorWhite);
+}
+.dark .icons i:hover{
+    color: var(--colorDark);
+}
+
+.dark .effectCircle{
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.dark .settings{
+    color: var(--colorWhite);
+}
+.dark .settings:hover{
+    color: var(--colorPurpleDark);
+}
+.dark .footer{
+    color: var(--colorWhite);
+}
+.dark .effectTxt{
+    color: var(--colorWhite);
+}
+.dark .effectTxt:hover{
+    color:  var(--colorPurpleDark);
+}
+.dark .effectReels{
+    color: var(--colorWhite);
+}
+.dark .effectReels:hover{
+    color: var(--colorPurpleDark);
+}
+
+.dark .effectDates{
+    color: var(--colorWhite);
+}
+
+.dark .btnP{
+    background-color: var(--colorPurpleDark);
+}
+
+.dark .btnP:hover{
+    background-color: var(--colorPurpleLight);
 }

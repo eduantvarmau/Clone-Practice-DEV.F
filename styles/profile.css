@@ -124,6 +124,7 @@
     background-size: cover;
     justify-self: center;
     background-color: var(--colorWhite);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 135px;
     height: 135px;
     border-radius: 50%;
@@ -149,8 +150,7 @@
     background-size: cover;
     width: 90px;
     height: 90px;
-    background-color: var(--colorWhite);
-    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    border-radius: 100%;
     justify-self: center;
     grid-area: circle1;
 }
@@ -160,8 +160,7 @@
     background-size: cover;
     width: 90px;
     height: 90px;
-    background-color: var(--colorWhite);
-    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    border-radius: 50%;
     justify-self: center;
     grid-area: circle2;
 }
@@ -171,7 +170,7 @@
     background-size: cover;
     width: 90px;
     height: 90px;
-    background-color: var(--colorWhite);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 50%;
     justify-self: center;
     grid-area: circle3;
@@ -182,54 +181,60 @@
     background-size: cover;
     width: 90px;
     height: 90px;
-    background-color: var(--colorWhite);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 50%;
     justify-self: center;
     grid-area: circle4;
 }
-
+.effectCircle:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
 .txt1{
     justify-self: center;
+    font-weight: bold;
     grid-area: txt1;
 }
 .txt2{
     justify-self: center;
+    font-weight: bold;
     grid-area: txt2;
 }
 .txt3{
     justify-self: center;
+    font-weight: bold;
     grid-area: txt3;
 }
 .txt4{
     justify-self: center;
+    font-weight: bold;
     grid-area: txt4;
 }
 
 .sec1{
-    color: var(--colorPurpleDark);
     font-weight: bold;
     justify-self: center;
     grid-area: sec1;
 }
 .sec2{
-    color: var(--colorPurpleDark);
     font-weight: bold;
     justify-self: center;
     grid-area: sec2;
 }
 .sec3{
-    color: var(--colorPurpleDark);
     font-weight: bold;
     justify-self: center;
     grid-area: sec3;
 }
 .sec4{
-    color: var(--colorPurpleDark);
     font-weight: bold;
     justify-self: center;
     grid-area: sec4;
 }
-
+.effectTxt:hover{
+    color: var(--colorPurpleDark);
+    cursor: pointer;
+}
 .date1{
     grid-area: date1;
 }
@@ -363,6 +368,7 @@
     height: 200px;
     font-size: small;
     grid-template-columns:  repeat(6, 100px);
+    grid-template-rows:  repeat(2, 25px);
     place-content: center;
     grid-template-areas: 
     "p1 p2 p3 p4 p5 p6"
